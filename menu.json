@@ -1,0 +1,614 @@
+{
+ "brand": "Ateş Kebap",
+ "subtitle": "Kebapçı",
+ "slogans": [
+  "Közün ateşi, ustanın eli.",
+  "Her şiş bir hikâye, her lokma bir ateş.",
+  "Odun közünde pişen gelenek.",
+  "Ateşi bilen usta, tadı bilen sofra."
+ ],
+ "notice": "Lütfen siparişinizi içeriden veriniz.",
+ "allergyNote": "Alerjiniz varsa lütfen siparişten önce personelimize bildiriniz. Kalori değerleri yaklaşıktır.",
+ "footer": "Afiyet olsun.",
+ "showImages": true,
+ "categories": [
+  {
+   "id": "kebaplar",
+   "name": "Közde Kebaplar",
+   "sub": "Odun ateşinde, ustanın elinde",
+   "items": [
+    {
+     "id": "u1",
+     "name": "Adana Kebap",
+     "desc": "El kıyması kuzu, kuyruk yağı ve acı kırmızı biber; közde pişer, lavaş ve közlenmiş sebzeyle gelir.",
+     "kcal": 690,
+     "price": 480,
+     "allergens": [
+      "gluten"
+     ],
+     "tags": [
+      "imza"
+     ],
+     "spice": 3,
+     "image": ""
+    },
+    {
+     "id": "u2",
+     "name": "Urfa Kebap",
+     "desc": "Biber katmadan hazırlanan el kıyması kuzu; közlenmiş domates, biber ve lavaşla.",
+     "kcal": 660,
+     "price": 470,
+     "allergens": [
+      "gluten"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u3",
+     "name": "Kuzu Şiş",
+     "desc": "Seçme kuzu bonfile, ızgarada kısa ve sert ateşte; pilav ve közlenmiş sebzeyle.",
+     "kcal": 640,
+     "price": 540,
+     "allergens": [
+      "gluten"
+     ],
+     "tags": [
+      "sefin"
+     ],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u4",
+     "name": "Tavuk Şiş",
+     "desc": "Yoğurtlu özel sosta dinlendirilmiş tavuk göğsü; pilav ve ızgara biberle.",
+     "kcal": 520,
+     "price": 390,
+     "allergens": [
+      "gluten",
+      "sut"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u5",
+     "name": "Kuzu Pirzola",
+     "desc": "Dört adet kuzu pirzola, tuz ve kekikle; közlenmiş domates ve soğan salatasıyla.",
+     "kcal": 780,
+     "price": 680,
+     "allergens": [
+      "gluten"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u6",
+     "name": "Ali Nazik",
+     "desc": "Közlenmiş patlıcan ezmesi, sarımsaklı yoğurt ve üzerinde tereyağında kavrulmuş kuzu kebap.",
+     "kcal": 820,
+     "price": 560,
+     "allergens": [
+      "gluten",
+      "sut"
+     ],
+     "tags": [],
+     "spice": 1,
+     "image": ""
+    },
+    {
+     "id": "u7",
+     "name": "Beyti Sarma",
+     "desc": "Lavaşa sarılmış acılı kuzu kıyma, tereyağı, domates sos ve yoğurtla.",
+     "kcal": 910,
+     "price": 580,
+     "allergens": [
+      "gluten",
+      "sut"
+     ],
+     "tags": [
+      "imza"
+     ],
+     "spice": 2,
+     "image": ""
+    },
+    {
+     "id": "u8",
+     "name": "İskender",
+     "desc": "İnce dilimlenmiş et, sıcak pide, tereyağı, domates sosu ve yoğurt.",
+     "kcal": 980,
+     "price": 540,
+     "allergens": [
+      "gluten",
+      "sut"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u9",
+     "name": "Ateş Karışık Izgara",
+     "desc": "Adana, kuzu şiş, pirzola ve tavuk kanat; közlenmiş sebze ve lavaşla. İki kişilik.",
+     "kcal": 1480,
+     "price": 1250,
+     "allergens": [
+      "gluten"
+     ],
+     "tags": [
+      "imza"
+     ],
+     "spice": 2,
+     "image": ""
+    }
+   ]
+  },
+  {
+   "id": "durumler",
+   "name": "Dürümler",
+   "sub": "Sıcak lavaşta, közün ardından",
+   "items": [
+    {
+     "id": "u10",
+     "name": "Adana Dürüm",
+     "desc": "Adana kebap, sumaklı soğan, maydanoz ve közlenmiş biber.",
+     "kcal": 640,
+     "price": 260,
+     "allergens": [
+      "gluten"
+     ],
+     "tags": [],
+     "spice": 2,
+     "image": ""
+    },
+    {
+     "id": "u11",
+     "name": "Tavuk Dürüm",
+     "desc": "Izgara tavuk şiş, marul, domates ve sarımsaklı yoğurt sos.",
+     "kcal": 560,
+     "price": 230,
+     "allergens": [
+      "gluten",
+      "sut"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u12",
+     "name": "Kuzu Şiş Dürüm",
+     "desc": "Közde pişmiş kuzu şiş, soğan ve domates.",
+     "kcal": 600,
+     "price": 310,
+     "allergens": [
+      "gluten"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u13",
+     "name": "Ciğer Dürüm",
+     "desc": "Taze kuzu ciğer, kırmızı soğan, maydanoz ve pul biber.",
+     "kcal": 590,
+     "price": 290,
+     "allergens": [
+      "gluten"
+     ],
+     "tags": [],
+     "spice": 1,
+     "image": ""
+    }
+   ]
+  },
+  {
+   "id": "pideler",
+   "name": "Pide ve Lahmacun",
+   "sub": "Taş fırında, ince hamurla",
+   "items": [
+    {
+     "id": "u14",
+     "name": "Lahmacun",
+     "desc": "İnce açılmış hamur üzerinde acılı kıyma harcı; limon ve maydanozla.",
+     "kcal": 330,
+     "price": 150,
+     "allergens": [
+      "gluten"
+     ],
+     "tags": [],
+     "spice": 1,
+     "image": ""
+    },
+    {
+     "id": "u15",
+     "name": "Kıymalı Pide",
+     "desc": "Kuzu kıyma, domates ve biber; taş fırında odun ateşiyle.",
+     "kcal": 760,
+     "price": 320,
+     "allergens": [
+      "gluten"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u16",
+     "name": "Kuşbaşılı Pide",
+     "desc": "Kuşbaşı kuzu eti, yeşil biber ve domates.",
+     "kcal": 820,
+     "price": 360,
+     "allergens": [
+      "gluten"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u17",
+     "name": "Kaşarlı Pide",
+     "desc": "Eritilmiş kaşar, tereyağı ve üzerine yumurta sarısı.",
+     "kcal": 840,
+     "price": 300,
+     "allergens": [
+      "gluten",
+      "sut",
+      "yumurta"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    }
+   ]
+  },
+  {
+   "id": "mezeler",
+   "name": "Çorbalar ve Mezeler",
+   "sub": "Sofranın ilk selamı",
+   "items": [
+    {
+     "id": "u18",
+     "name": "Mercimek Çorbası",
+     "desc": "Kırmızı mercimek, tereyağı ve limon; kıtır ekmekle.",
+     "kcal": 190,
+     "price": 110,
+     "allergens": [
+      "sut",
+      "gluten"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u19",
+     "name": "Ezogelin Çorbası",
+     "desc": "Mercimek, bulgur ve pirinç; nane ve pul biberle.",
+     "kcal": 210,
+     "price": 120,
+     "allergens": [
+      "gluten"
+     ],
+     "tags": [],
+     "spice": 1,
+     "image": ""
+    },
+    {
+     "id": "u20",
+     "name": "Humus",
+     "desc": "Nohut ezmesi, tahin, zeytinyağı ve sumak.",
+     "kcal": 260,
+     "price": 140,
+     "allergens": [
+      "susam"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u21",
+     "name": "Haydari",
+     "desc": "Süzme yoğurt, sarımsak, dereotu ve ceviz.",
+     "kcal": 240,
+     "price": 130,
+     "allergens": [
+      "sut",
+      "kabuklu"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u22",
+     "name": "Acılı Ezme",
+     "desc": "Domates, soğan, biber ve nar ekşisi; ateşli bir başlangıç.",
+     "kcal": 120,
+     "price": 110,
+     "allergens": [
+      "sulfit"
+     ],
+     "tags": [
+      "acı"
+     ],
+     "spice": 3,
+     "image": ""
+    },
+    {
+     "id": "u23",
+     "name": "Babaganuş",
+     "desc": "Közlenmiş patlıcan, tahin, sarımsak ve zeytinyağı.",
+     "kcal": 230,
+     "price": 140,
+     "allergens": [
+      "susam"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u24",
+     "name": "Çiğ Köfte",
+     "desc": "Bulgur, isot ve biber salçası; marul ve limonla.",
+     "kcal": 280,
+     "price": 160,
+     "allergens": [
+      "gluten"
+     ],
+     "tags": [],
+     "spice": 2,
+     "image": ""
+    }
+   ]
+  },
+  {
+   "id": "salatalar",
+   "name": "Salatalar",
+   "sub": "Közün yanına ferahlık",
+   "items": [
+    {
+     "id": "u25",
+     "name": "Çoban Salata",
+     "desc": "Domates, salatalık, biber, soğan ve maydanoz.",
+     "kcal": 110,
+     "price": 120,
+     "allergens": [],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u26",
+     "name": "Gavurdağı Salatası",
+     "desc": "Domates, ceviz, nar ekşisi ve zeytinyağı; kıyılmış soğanla.",
+     "kcal": 230,
+     "price": 170,
+     "allergens": [
+      "kabuklu",
+      "sulfit"
+     ],
+     "tags": [
+      "sefin"
+     ],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u27",
+     "name": "Piyaz",
+     "desc": "Haşlanmış fasulye, soğan, maydanoz ve yumurta.",
+     "kcal": 260,
+     "price": 140,
+     "allergens": [
+      "yumurta",
+      "hardal"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u28",
+     "name": "Közlenmiş Biber Salatası",
+     "desc": "Közlenmiş kapya biber, sarımsak ve nar ekşisi.",
+     "kcal": 140,
+     "price": 130,
+     "allergens": [
+      "sulfit"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    }
+   ]
+  },
+  {
+   "id": "tatlilar",
+   "name": "Tatlılar",
+   "sub": "Ateşin tatlı sonu",
+   "items": [
+    {
+     "id": "u29",
+     "name": "Antep Fıstıklı Künefe",
+     "desc": "Tel kadayıf, hatay peyniri ve şerbet; üzerine bol Antep fıstığı.",
+     "kcal": 620,
+     "price": 270,
+     "allergens": [
+      "gluten",
+      "sut",
+      "kabuklu"
+     ],
+     "tags": [
+      "imza"
+     ],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u30",
+     "name": "Fıstıklı Baklava",
+     "desc": "Kırk kat yufka, tereyağı ve Antep fıstığı; dört dilim.",
+     "kcal": 540,
+     "price": 240,
+     "allergens": [
+      "gluten",
+      "sut",
+      "kabuklu"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u31",
+     "name": "Fırın Sütlaç",
+     "desc": "Pirinç, süt ve vanilya; üzeri közlenmiş.",
+     "kcal": 340,
+     "price": 150,
+     "allergens": [
+      "sut"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u32",
+     "name": "Kazandibi",
+     "desc": "Yanık sütlü, karamelize tabanlı geleneksel tatlı.",
+     "kcal": 330,
+     "price": 150,
+     "allergens": [
+      "sut"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u33",
+     "name": "Kabak Tatlısı",
+     "desc": "Fırında şekerlenmiş balkabağı, ceviz ve tahin.",
+     "kcal": 360,
+     "price": 160,
+     "allergens": [
+      "kabuklu",
+      "susam"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    }
+   ]
+  },
+  {
+   "id": "icecekler",
+   "name": "İçecekler",
+   "sub": "Közün yanına serinlik",
+   "items": [
+    {
+     "id": "u34",
+     "name": "Ayran",
+     "desc": "Bol köpüklü, soğuk geleneksel yoğurt içeceği.",
+     "kcal": 70,
+     "price": 60,
+     "allergens": [
+      "sut"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u35",
+     "name": "Şalgam",
+     "desc": "Acılı veya acısız; Adana usulü.",
+     "kcal": 25,
+     "price": 60,
+     "allergens": [],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u36",
+     "name": "Ev Yapımı Limonata",
+     "desc": "Taze limon, nane ve buz.",
+     "kcal": 110,
+     "price": 90,
+     "allergens": [],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u37",
+     "name": "Taze Portakal Suyu",
+     "desc": "Sipariş üzerine sıkılır.",
+     "kcal": 120,
+     "price": 110,
+     "allergens": [],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u38",
+     "name": "Türk Çayı",
+     "desc": "İnce belli bardakta, demli.",
+     "kcal": 2,
+     "price": 25,
+     "allergens": [],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u39",
+     "name": "Türk Kahvesi",
+     "desc": "Közde, cezvede; sade, orta veya şekerli.",
+     "kcal": 12,
+     "price": 80,
+     "allergens": [],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u40",
+     "name": "Kola",
+     "desc": "330 ml kutu.",
+     "kcal": 140,
+     "price": 70,
+     "allergens": [],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    },
+    {
+     "id": "u41",
+     "name": "Soda",
+     "desc": "Doğal maden suyu, 200 ml.",
+     "kcal": 0,
+     "price": 40,
+     "allergens": [
+      "sulfit"
+     ],
+     "tags": [],
+     "spice": 0,
+     "image": ""
+    }
+   ]
+  }
+ ]
+}

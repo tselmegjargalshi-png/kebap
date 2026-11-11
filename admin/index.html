@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Ateş Kebap | Yönetim Paneli</title>
+<link rel="icon" href="/assets/icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,800;0,900;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+
+<div id="login" class="login">
+  <form id="lf" class="lbox">
+    <img src="/assets/icon.png" alt="">
+    <h1>Yönetim Paneli</h1>
+    <p>Ateş Kebap dijital menü</p>
+    <input id="pw" type="password" placeholder="Şifre" autocomplete="current-password" required>
+    <button class="btn gold" type="submit">Giriş yap</button>
+    <small id="lerr"></small>
+  </form>
+</div>
+
+<div id="app" hidden>
+  <header class="atop">
+    <div class="abar">
+      <img src="/assets/icon.png" alt="">
+      <b>Ateş Kebap <i>Yönetim</i></b>
+      <span class="saved" id="saved">Kaydedildi</span>
+      <a class="ghost sm" href="/" target="_blank">Menüyü gör</a>
+      <button class="ghost sm" id="out">Çıkış</button>
+    </div>
+    <nav class="anav" id="nav">
+      <button data-v="panel" class="on">Panel</button>
+      <button data-v="urunler">Ürünler</button>
+      <button data-v="gorseller">Görseller</button>
+      <button data-v="kategoriler">Kategoriler</button>
+      <button data-v="ayarlar">Ayarlar</button>
+      <button data-v="yayin">Yayın</button>
+    </nav>
+  </header>
+  <main class="acontent" id="view"></main>
+</div>
+
+<div class="toast" id="toast"></div>
+<script src="/assets/common.js"></script>
+<script src="/admin/admin.js"></script>
+</body>
+</html>
